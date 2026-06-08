@@ -1,0 +1,6 @@
+test,asus_cpu_tok_s,mac_cpu_tok_s,mac_cpu_vs_asus,asus_vulkan_tok_s,mac_metal_tok_s,mac_metal_vs_asus
+Prompt 512,112.26,128.38,1.14,999.40,2989.13,2.99
+Prompt 2048,118.38,117.33,0.99,959.83,2893.86,3.01
+Decode 128,12.98,48.74,3.76,53.73,95.98,1.79
+Prompt 512 + Decode 128,44.54,91.35,2.05,219.21,411.65,1.88
+Prompt 2048 + Decode 128,78.77,107.61,1.37,473.97,932.46,1.97
