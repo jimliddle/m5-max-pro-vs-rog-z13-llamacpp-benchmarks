@@ -1,4 +1,4 @@
-# Apple M5 Max vs ASUS ROG Flow Z13 llama.cpp Benchmark
+# Apple M5 Max Pro vs ASUS ROG Flow Z13 llama.cpp Benchmark
 
 This rep  contains a reproducible benchmark snapshot for standard `llama.cpp` on an Apple M5 Max MacBook Pro, compared with an existing ASUS ROG Flow Z13 / AMD Ryzen AI Max+ 395 baseline.
 
