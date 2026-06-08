@@ -93,7 +93,6 @@ Important limitations:
 - It measures engine throughput, not full application latency.
 - It does not measure UI overhead, streaming overhead, RAG, tool use, or long conversation management.
 - It does not measure power draw, fan noise, battery life, or sustained thermal behavior over long sessions.
-- The ASUS baseline comes from prior benchmark results, not a fresh same-day side-by-side rerun.
 - The Mac CPU build reported that OpenMP was not found during CMake configure, so CPU comparisons should be read with that caveat.
 
 The most relevant row for perceived end-user chat speed is **Decode 128**, because decode throughput is the rate at which new tokens are generated after the prompt has been processed.
