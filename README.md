@@ -21,7 +21,15 @@ Mac benchmark machine:
 - Memory: 128 GB unified memory
 - Backend: Metal
 
-Raw hardware capture:
+- Machine: ASUS ROG Flow Z13
+- Processor: AMD Ryzen AI Max+ 395
+- CPU: 16-core Zen 5
+- GPU: integrated AMD Radeon 8060S
+- Memory: 128 GB unified memory
+- Benchmark backend: Vulkan
+- Memory allocation during the benchmark: 64 GB GPU / 64 GB system
+
+Hardware details:
 
 `results/hardware.txt`
 
@@ -87,15 +95,15 @@ What the benchmark does well:
 - Uses repeated runs, with 3 samples per benchmark row
 - Keeps KV cache and flash-attention settings explicit
 
-Important limitations:
+Limitations:
 
-- `llama-bench` uses synthetic token workloads, not natural chat prompts.
-- It measures engine throughput, not full application latency.
+- `llama-bench` uses synthetic token workloads (not natural chat prompts).
+- It measures engine throughput (not full application latency).
 - It does not measure UI overhead, streaming overhead, RAG, tool use, or long conversation management.
 - It does not measure power draw, fan noise, battery life, or sustained thermal behavior over long sessions.
 - The Mac CPU build reported that OpenMP was not found during CMake configure, so CPU comparisons should be read with that caveat.
 
-The most relevant row for perceived end-user chat speed is **Decode 128**, because decode throughput is the rate at which new tokens are generated after the prompt has been processed.
+The most relevant row for perceived end user chat speed is **Decode 128**, because decode throughput is the rate at which new tokens are generated after the prompt has been processed.
 
 ## Mac Results
 
