@@ -21,6 +21,8 @@ Mac benchmark machine:
 - Memory: 128 GB unified memory
 - Backend: Metal
 
+<br/><br/>
+
 - Machine: ASUS ROG Flow Z13
 - Processor: AMD Ryzen AI Max+ 395
 - CPU: 16-core Zen 5
